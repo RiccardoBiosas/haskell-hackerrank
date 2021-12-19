@@ -1,0 +1,82 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 472832877b2386c4fce5c44c64c5663b066596079e65935c7dfc5ed6e6eb2d50
+
+name:           haskell-hackerrank
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/RiccardoBiosas/haskell-hackerrank#readme>
+homepage:       https://github.com/RiccardoBiosas/haskell-hackerrank#readme
+bug-reports:    https://github.com/RiccardoBiosas/haskell-hackerrank/issues
+author:         RiccardoBiosas
+maintainer:     rbios@protonmail.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/RiccardoBiosas/haskell-hackerrank
+
+library
+  other-modules:
+      Paths_haskell_hackerrank
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable algo-02-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_hackerrank
+  hs-source-dirs:
+      src/algo-02
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , haskell-hackerrank
+  default-language: Haskell2010
+
+executable algo-03-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_hackerrank
+  hs-source-dirs:
+      src/algo-03
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , haskell-hackerrank
+  default-language: Haskell2010
+
+executable algo-04-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_hackerrank
+  hs-source-dirs:
+      src/algo-04
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , haskell-hackerrank
+  default-language: Haskell2010
+
+executable algo-05-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_hackerrank
+  hs-source-dirs:
+      src/algo-05
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , haskell-hackerrank
+  default-language: Haskell2010
